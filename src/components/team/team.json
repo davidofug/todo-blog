@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_team_teams",
+  "info": {
+    "displayName": "Team",
+    "icon": "user"
+  },
+  "options": {},
+  "attributes": {
+    "users_permissions_user": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "plugin::users-permissions.user"
+    },
+    "Role": {
+      "type": "string"
+    },
+    "Role_description": {
+      "type": "text"
+    }
+  }
+}
